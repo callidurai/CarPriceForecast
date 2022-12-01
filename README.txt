@@ -16,7 +16,7 @@ INSTALLATION
 
 - Make sure Python3 is intalled. Frontend app.py is built on top of python3
 - Install Fask 
-    command: ```pip3 install flask```
+    command: pip3 install flask
 
 ## add any packages you used in your code here 
 
