@@ -36,4 +36,5 @@ Frontend
     b. Run following command in terminal: python3 app.py 
 3. Copy url from output of previous command. Ex: "http://127.0.0.1:5001"
 4. Paste this url into your browser and you should see a form pop up
-5. Enter vehicle information and click predict to see the output.
+5. Enter vehicle information and click "Predict" to see the output.
+6. Click "Reset Form" to reset the form and try a new prediction
