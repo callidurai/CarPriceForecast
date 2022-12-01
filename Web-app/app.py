@@ -32,6 +32,7 @@ def predict():
 
     int_features = [x for x in request.form.values()]
 
+    int_features[3] = int_features[3].upper()
     final = [""] * 5
     final[0] = int_features[0]
     final[1] = "listing_color_" + int_features[3]
@@ -48,7 +49,7 @@ def predict():
     # Take the first value of prediction
     output = prediction[0]
 
-    return render_template('success.html', pred='Expected Car Value Will be ${:.2f}'.format(output))
+    return render_template('home.html', pred='Expected Car Value Will be ${:.2f}'.format(output))
 
 
 @app.route('/api',methods=['POST'])

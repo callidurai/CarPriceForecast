@@ -6,6 +6,7 @@
     <meta name="keywords" content="html tutorial template">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="../static/css/style.css"> 
+    <!-- {{ url_for('static', filename='./style.css')}} -->
 </head>
 <body>
   <form action="{{ url_for('predict')}}" method="post">
@@ -25,5 +26,8 @@
       </div>
       <button type="submit" class="btn btn-primary btn-block btn-large">Predict </button>
     </form>
+    <form action="{{ url_for('home')}}" style="border: 0" >
+      <button type="submit" class="btn btn-primary btn-block btn-small" style="background-color:crimson"> Reset Form </button>
+  </form>
   </body>
 </html>
