@@ -34,6 +34,6 @@ Frontend
 1. Update line 20 of the app.py file with the name of the pickle file created in backend step
 2. Start Python application 
     b. Run python3 app.py 
-3. Copy url from output of previous command. Ex: http://127.0.0.1:5001
+3. Copy url from output of previous command. Ex: "http://127.0.0.1:5001"
 4. Paste this url into your browser and you should see a form pop up
 5. Enter vehicle information and click predict to see the output.
