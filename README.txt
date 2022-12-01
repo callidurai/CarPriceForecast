@@ -16,7 +16,7 @@ INSTALLATION
 
 - Make sure Python3 is intalled. Frontend app.py is built on top of python3
 - Install Fask 
-    command: pip3 install flask
+    run following command in terminal: pip3 install flask
 
 ## add any packages you used in your code here 
 
@@ -33,7 +33,7 @@ Frontend
 -------------------
 1. Update line 20 of the app.py file with the name of the pickle file created in backend step
 2. Start Python application 
-    b. Run python3 app.py 
+    b. Run following command in terminal: python3 app.py 
 3. Copy url from output of previous command. Ex: "http://127.0.0.1:5001"
 4. Paste this url into your browser and you should see a form pop up
 5. Enter vehicle information and click predict to see the output.
